@@ -1,0 +1,5 @@
+#A user account with rights to join devices to the domain. 
+domain_name: YourInfo
+domain_user: YourInfo
+domain_user_password: YourInfo
+domain_ou: YourInfo

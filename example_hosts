@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    windows:
+      children:
+        win_domain_controller:
+          hosts:
+            10.0.0.155:
+            

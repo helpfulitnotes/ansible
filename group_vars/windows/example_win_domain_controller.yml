@@ -1,0 +1,4 @@
+domain_controller_hostname: 'YourInfo'
+active_directory_domain_name: "YourInfo"
+domain_admin_password: 'YourInfo'
+active_directory_recovery_password: 'YourInfo'
