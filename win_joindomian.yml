@@ -1,4 +1,4 @@
-- hosts: win_domain_controller
+- hosts: win_joindomian
   gather_facts: yes
   roles:
    - win_joindomian
