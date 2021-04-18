@@ -1,0 +1,11 @@
+win_create_shared_folder_path: 'YourInfo'
+win_create_shared_folder_user: 'YourInfo'
+win_create_shared_folder_rights: FullControl
+win_create_shared_folder_type: allow
+win_create_shared_folder_state1: directory
+win_create_shared_folder_state2: present
+win_create_shared_folder_propagation: 'None'
+win_create_shared_folder_name: 'YourInfo'
+win_create_shared_folder_description: 'This is my share'
+win_create_shared_folder_list: 'no'
+win_create_shared_folder_full: 'Administrators'

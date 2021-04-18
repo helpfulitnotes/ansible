@@ -1,0 +1,4 @@
+- hosts: win_create_shared_folder
+  gather_facts: yes
+  roles:
+   - win_create_shared_folder

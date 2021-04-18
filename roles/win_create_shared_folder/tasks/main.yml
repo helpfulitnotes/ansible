@@ -1,0 +1,23 @@
+---
+    - name: Create directory
+      win_file:
+        path: "{{ win_create_shared_folder_path }}"
+        state: "{{ win_create_shared_folder_state1 }}"
+
+    - name: Share directory
+      win_share:
+        name: "{{ win_create_shared_folder_name }}"
+        description: "{{ win_create_shared_folder_description }}"
+        path: "{{ win_create_shared_folder_path }}"
+        list: "{{ win_create_shared_folder_list }}"
+        full: "{{ win_create_shared_folder_full }}"      
+        
+    - name: Add User/Group
+      win_acl:
+        path: "{{ win_create_shared_folder_path }}"
+        user: "{{ win_create_shared_folder_user }}"
+        rights: "{{ win_create_shared_folder_rights }}"
+        type: "{{ win_create_shared_folder_type }}"
+        state: "{{ win_create_shared_folder_state2 }}"
+        propagation: "{{ win_create_shared_folder_propagation }}"        
+        
