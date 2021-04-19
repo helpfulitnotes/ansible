@@ -1,0 +1,4 @@
+- hosts: ub_unifi
+  gather_facts: yes
+  roles:
+   - ub_unifi

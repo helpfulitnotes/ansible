@@ -1,0 +1,9 @@
+ub_unifi_apt_name1: ca-certificates
+ub_unifi_apt_name2: apt-transport-https
+ub_unifi_apt_name3: openjdk-8-jdk
+ub_unifi_mongo_key_url: https://www.mongodb.org/static/pgp/server-4.4.asc
+ub_unifi_unifi_key_url: https://dl.ui.com/unifi/unifi-repo.gpg
+ub_unifi_mongo_repo: deb https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse
+ub_unifi_unifi_repo: deb https://www.ui.com/downloads/unifi/debian stable ubiquiti
+ub_unifi_mongo_repo_filename: mongo-org-4.4
+ub_unifi_unifi_repo_filename: unifi

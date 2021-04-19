@@ -1,0 +1,34 @@
+---
+    - name: Update
+      command: apt update
+      become: yes 
+    - name: "Install required packages"
+      apt:
+        name:
+          - "{{ ub_unifi_apt_name1 }}"
+          - "{{ ub_unifi_apt_name2 }}"
+          - "{{ ub_unifi_apt_name3 }}"
+        state: latest
+    - name: "Add Mongo Key"
+      apt_key:
+        url: "{{ ub_unifi_Mongo_Key_url }}"
+        state: present
+    - name: "Add Unifi Key"
+      apt_key:
+        url: "{{ ub_unifi_unifi_key_url }}"
+        state: present
+    - name: "Add Unifi Repo"
+      apt_repository:
+        repo: "{{ ub_unifi_unifi_repo }}"
+        state: present
+        filename: "{{ ub_unifi_unifi_repo_filename }}"
+    - name: "Add Mongo Repo"
+      apt_repository:
+        repo: "{{ ub_unifi_mongo_repo }}"
+        state: present
+        filename: "{{ ub_unifi_mongo_repo_filename }}"
+    - name: "Install Unifi"
+      apt:
+        name: "{{ ub_unifi_unifi_repo_filename }}"
+        update_cache: yes
+        state: latest 
