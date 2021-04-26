@@ -1,0 +1,17 @@
+---
+    - win_domain_user:
+        name: "{{ win_add_ad_user_name }}"
+        firstname: "{{ win_add_ad_user_firstname }}"
+        surname: "{{ win_add_ad_user_surname }}"
+        company: "{{ win_add_ad_user_company }}"
+        account_locked: "{{ win_add_ad_user_account_locked }}"
+        description: "{{ win_add_ad_user_description }}"
+        enabled: "{{ win_add_ad_user_enabled }}"
+        groups:
+          - "{{ win_add_ad_user_groups }}"
+        path: "{{ win_add_ad_user_path }}"
+        password: "{{ win_add_ad_user_password }}"
+        state: present
+        domain_username: "{{ win_add_ad_user_domain_username }}"
+        domain_password: "{{ win_add_ad_user_domain_password }}"
+        domain_server: "{{ win_add_ad_user_domain_server }}"

@@ -1,0 +1,4 @@
+- hosts: win_add_ad_user
+  gather_facts: yes
+  roles:
+   - win_add_ad_user

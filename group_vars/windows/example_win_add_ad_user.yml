@@ -1,0 +1,13 @@
+win_add_ad_user_name: 'YourInfo'
+win_add_ad_user_firstname: 'YourInfo'
+win_add_ad_user_surname: 'YourInfo'
+win_add_ad_user_company: 'YourInfo'
+win_add_ad_user_account_locked: no
+win_add_ad_user_description: present
+win_add_ad_user_enabled: yes
+win_add_ad_user_groups: 'YourInfo'
+win_add_ad_user_path: 'This is my share'
+win_add_ad_user_password: 'no'
+win_add_ad_user_domain_username: 'Administrators'
+win_add_ad_user_domain_password: 'Non'
+win_add_ad_user_domain_server: 'YourInfo'
