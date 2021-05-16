@@ -1,0 +1,8 @@
+vmw_clone_template_vcenter_hostname: 'YourInfo'
+vmw_clone_template_vcenter_username: 'YourInfo'
+vmw_clone_template_vcenter_password: 'YourInfo'
+vmw_clone_template_vm_name: 'YourInfo'
+vmw_clone_template_template_name: 'YourInfo'
+vmw_clone_template_datacenter_name: 'YourInfo'
+vmw_clone_template_vm_folder_name: 'YourInfo'
+vmw_clone_template_cluster_name: 'YourInfo'
