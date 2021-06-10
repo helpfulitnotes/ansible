@@ -2,4 +2,5 @@
     - name: Install 365DSC 
       win_psmodule:
         name: Microsoft365DSC
+        allow_clobber: yes
         state: present
