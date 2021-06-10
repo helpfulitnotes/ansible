@@ -1,0 +1,4 @@
+- hosts: win_365dscinstall
+  gather_facts: yes
+  roles:
+   - win_365dscinstall

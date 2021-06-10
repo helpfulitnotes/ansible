@@ -1,0 +1,7 @@
+---
+    - win_dns_client:
+        adapter_names: "{{ win_dns_client_ethernet }}"
+        ipv4_addresses:
+          - "{{ win_dns_client_dns1 }}"
+          - "{{ win_dns_client_dns2 }}"
+      register: dns_client_state

@@ -1,0 +1,4 @@
+win_dns_client_ethernet: 'YourInfo'
+win_dns_client_dns1: 'YourInfo'
+win_dns_client_dns2: 'YourInfo'
+
