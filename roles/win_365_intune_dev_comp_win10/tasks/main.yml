@@ -4,7 +4,7 @@
         resource_name: IntuneDeviceCompliancePolicyWindows10
         Ensure: present
         DisplayName: "Windows 10 DSC Policy"
-        Description "Test policy"
+        Description: "Test policy"
         PasswordRequired: False
         PasswordBlockSimple: False
         PasswordRequiredToUnlockFromIdle: True
