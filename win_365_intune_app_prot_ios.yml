@@ -1,0 +1,4 @@
+- hosts: win_365_intune_app_prot_ios
+  gather_facts: yes
+  roles:
+   - win_365_intune_app_prot_ios
