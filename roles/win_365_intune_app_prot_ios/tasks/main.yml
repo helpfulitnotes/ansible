@@ -7,8 +7,8 @@
         AllowedOutboundClipboardSharingLevel: managedAppsWithPasteIn
         AllowedOutboundDataTransferDestinations: managedApps
         AppDataEncryptionType: whenDeviceLocked
-        Apps: "com.cisco.jabberimintune.ios","com.pervasent.boardpapers.ios","com.sharefile.mobile.intune.ios"
-        Assignments: 6ee86c9f-2b3c-471d-ad38-ff4673ed723e"
+        Apps: 
+        Assignments: 
         ContactSyncBlocked: False
         DataBackupBlocked: False
         Description: test
