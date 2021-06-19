@@ -1,5 +1,6 @@
 ---
-    - vmw_clone_template:
+    - name: vmw_clone_template
+      vmware_guest:
         hostname: "{{ vmw_clone_template_vcenter_hostname }}"
         username: "{{ vmw_clone_template_vcenter_username }}"
         password: "{{ vmw_clone_template_vcenter_password }}"
