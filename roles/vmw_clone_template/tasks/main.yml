@@ -3,11 +3,13 @@
         hostname: "{{ vmw_clone_template_vcenter_hostname }}"
         username: "{{ vmw_clone_template_vcenter_username }}"
         password: "{{ vmw_clone_template_vcenter_password }}"
-        validate_certs: False
-        name: "{{ vmw_clone_template_vm_name }}"
+        validate_certs: "{{ vmw_clone_template_validate_certs }}"
+        name: "{{ item }}"
         template: "{{ vmw_clone_template_template_name }}"
         datacenter: "{{ vmw_clone_template_datacenter_name }}"
+        datastore: "{{ vmw_clone_template_datastore }}"
         folder: "{{ vmw_clone_template_vm_folder_name }}"
-        state: poweredon
+        state: "{{ vmw_clone_template_vm_state }}"
         cluster: "{{ vmw_clone_template_cluster_name }}"
-        wait_for_ip_address: yes
+        customization_spec: "{{ vmw_clone_template_customization_spec }}"
+      with_items: "{{ vmw_clone_template_vm_name }}"

@@ -1,8 +1,14 @@
 vmw_clone_template_vcenter_hostname: 'YourInfo'
 vmw_clone_template_vcenter_username: 'YourInfo'
 vmw_clone_template_vcenter_password: 'YourInfo'
-vmw_clone_template_vm_name: 'YourInfo'
 vmw_clone_template_template_name: 'YourInfo'
 vmw_clone_template_datacenter_name: 'YourInfo'
 vmw_clone_template_vm_folder_name: 'YourInfo'
 vmw_clone_template_cluster_name: 'YourInfo'
+vmw_clone_template_datastore: 'YourInfo'
+vmw_clone_template_validate_certs: False
+vmw_clone_template_customization_spec: 'YourInfo'
+vmw_clone_template_vm_state: poweredon
+vmw_clone_template_vm_name:
+   - 'YourInfo'
+   - 'YourInfo'
