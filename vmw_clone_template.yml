@@ -1,0 +1,4 @@
+- hosts: vmw_clone_template
+  gather_facts: yes
+  roles:
+   - vmw_clone_template
