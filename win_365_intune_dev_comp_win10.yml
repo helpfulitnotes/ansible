@@ -1,4 +1,0 @@
-- hosts: win_365_intune_dev_comp_win10
-  gather_facts: yes
-  roles:
-   - win_365_intune_dev_comp_win10
